@@ -76,13 +76,13 @@ Total number of employees:
 Total by gender:
 ```dax
  - Total de Funcionários Masculinos = CALCULATE(COUNTROWS(Dados_RH), Dados_RH[Gender] = "Male")
- - Total de Funcionários Femeninos = CALCULATE(COUNTROWS(Dados_RH), Dados_RH[Gender] = "Female")
+ - Total de Funcionários Femininos = CALCULATE(COUNTROWS(Dados_RH), Dados_RH[Gender] = "Female")
 ````
 
 Percentage by gender:
 ```dax
  - % de Funcionários Masculinos = DIVIDE([Total de Funcionários Masculinos],[Total de Funcionários])
- - % de Funcionários Femeninos = DIVIDE([Total de Funcionários Femeninos],[Total de Funcionários])
+ - % de Funcionários Femininos = DIVIDE([Total de Funcionários Femininos],[Total de Funcionários])
 ````
 
 Average length of service within the company:
